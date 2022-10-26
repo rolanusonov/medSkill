@@ -1,0 +1,75 @@
+@media (max-width: 1200px) {
+    .header-log {
+        width: 312px;
+    }
+}
+@media (max-width: 1024px) {
+    .car{
+        width: 500px;
+    }
+    .btn button {
+        margin: 0 0 30px 0;
+    }
+}
+@media (max-width: 768px) {
+    .header-log {
+        width: 280px;
+        font-size: 27px;
+        margin: 87px 0 0 0;
+    }
+    .car{
+        width: 400px;
+    }
+    .card {
+        width: 147px;
+        height: 110px;
+    }
+    .cardTitle{
+ font-size: 13px;
+    }
+}
+@media (max-width: 576px) {
+    .block {
+         flex-direction: column;
+     }
+    .header-log {
+        width: 294px;
+        text-align: center;
+
+    }
+    .btn {
+        margin: 16px 0 0 0;
+        display: flex;
+        justify-content: center;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .card{
+        margin: 10px;
+    }
+}
+@media (max-width: 414px) {
+    .car {
+        width: 347px;
+    }
+}
+
+/*1200*/
+/*1024*/
+/*992*/
+/*768*/
+/*576*/
+/*450*/
+/*414*/
+/*400*/
+/*380*/
+/*375*/
+/*360*/
+/*320*/
